@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
+import Opener from "../opener/opener";
+import { HeaderContainer } from "./style";
 
 const Header = () => {
   return (
-    <div>
+    <HeaderContainer>
       <Navbar />
-    </div>
+      <Opener />
+    </HeaderContainer>
   );
 };
 

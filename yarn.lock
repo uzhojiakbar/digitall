@@ -2933,6 +2933,11 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+vara@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/vara/-/vara-1.4.1.tgz#974272696f39682bc4da7cc2e2f73d5fd683c305"
+  integrity sha512-oX+D+jXIJTmdQb7+OeuhvxSvSJB1PG8X2mzI3u7wTbuJ4v2QskA2fNlkNnyI2883YBRmEoA6R9gJg4jHiVNvXQ==
+
 vite@^6.0.1:
   version "6.0.3"
   resolved "https://registry.npmjs.org/vite/-/vite-6.0.3.tgz"

@@ -4,12 +4,20 @@ import { Drawer } from "antd";
 
 export const NavbarContainer = styled.div`
   width: 100%;
+  max-width: 1920px;
+  min-width: 300px;
+
   height: 80px;
   align-items: center;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   color: #fff;
+
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(30px);
 
   @media (max-width: 768px) {
     padding: 10px 15px;
